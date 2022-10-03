@@ -210,16 +210,16 @@ echo && echo -e " ${Red_font_prefix}Linux系統更替Repo${Font_color_suffix}
  ${Green_font_prefix}1.${Font_color_suffix}  更替為阿里雲源
  ${Green_font_prefix}2.${Font_color_suffix}  更替為華為雲源
  ${Green_font_prefix}3.${Font_color_suffix}  更替為163源
- ———————————————————————————————————————————————
+ ——————————————————————
  ${Green_font_prefix}4.${Font_color_suffix}  還原為默認源
- ———————————————————————————————————————————————
+ ——————————————————————
  ${Green_font_prefix}5.${Font_color_suffix}  退出腳本
- ———————————————————————————————————————————————" &&
+ —————————————————————" &&
 
-	echo -e " 系統為: ${Font_color_suffix}$release${Font_color_suffix}"
-	echo -e " 版本為: ${Font_color_suffix}$version${Font_color_suffix}"
+	echo -e " 系統為: ${Font_color_prefix}$release${Font_color_suffix}"
+	echo -e " 版本為: ${Font_color_prefix}$version${Font_color_suffix}"
 	
-read -e -p " PLEASE ENTER NUMBER:" num
+read -e -p " 請輸入數字:" num
 case "$num" in
 	1)
 	backup
