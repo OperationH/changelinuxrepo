@@ -57,6 +57,7 @@ mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 	echo -e "${Green_font_prefix}已備份至/etc/yum.repos.d/CentOS-Base.repo.backup${Font_color_suffix}"
 else
 	echo -e "${Green_font_prefix}默認源備份已存在，將跳過備份${Font_color_suffix}"
+	fi
 }
 
 aliyun(){
