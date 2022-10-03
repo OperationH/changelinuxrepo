@@ -97,7 +97,7 @@ elif [[ "${release}" == "debian" ]] && [[ "${version}" == "10" ]];then
 else
 	echo -e "${Green_font_prefix}系統檢測失敗或腳本不支持您的系統${Font_color_suffix}"
 	exit 1
-
+fi
 }
 
 huawei(){
@@ -137,6 +137,7 @@ elif [[ "${release}" == "debian" ]] && [[ "${version}" == "10" ]];then
 else
 	echo -e "${Green_font_prefix}系統檢測失敗或腳本不支持您的系統${Font_color_suffix}"
 	exit 1
+fi
 }
 
 
@@ -177,6 +178,7 @@ elif [[ "${release}" == "debian" ]] && [[ "${version}" == "10" ]];then
 else
 	echo -e "${Green_font_prefix}系統檢測失敗或腳本不支持您的系統${Font_color_suffix}"
 	exit 1
+fi
 }
 
 recovery(){
@@ -196,6 +198,7 @@ elif [[ "${release}" == "debian" ]]&& [[ "${version}" == "11" ]];then
 else
 	echo -e "${Green_font_prefix}備份不存在或系統檢測失敗${Font_color_suffix}"
 	exit 1
+fi
 }
 
 menu(){
