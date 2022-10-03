@@ -245,3 +245,5 @@ case "$num" in
 	;;
 esac
 }
+
+menu
