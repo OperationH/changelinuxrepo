@@ -1,7 +1,7 @@
 # Change linux Repo
 Bash Script for changing Linux Repo based on Operation System
 ```shell
-bash <(curl -fsSL https://raw.githubusercontent.com/hasefukashi/changelinuxrepo/main/changerepo.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/OperationH/changelinuxrepo/main/changerepo.sh)
 ```
 
 Only for education purpose, there might be some unknown bugs waiting to fix.
